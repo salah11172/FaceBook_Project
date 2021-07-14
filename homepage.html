@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .list-group-item {
+        border: none;
+      }
+    </style>
+  </head>
+  <body class="">
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container-fluid">
+        <a class="btn btn-primary" href="add.php" id="sidebarToggle"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#!">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="control.php">Log out</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Setting</a
+              >
+              <div
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item" href="#!">Action</a>
+                <a class="dropdown-item" href="#!">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#!">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- side-bar -->
+    <div class="bg-white position-fixed end-0" id="sidebar-wrapper">
+      <div class="list-group list-group-flush border-start">
+        <a
+          class="
+            list-group-item list-group-item-action list-group-item-light
+            p-3
+          "
+          href="../student/list.php"
+          >Profile
+        </a>
+        <a
+          class="
+            list-group-item list-group-item-action list-group-item-light
+            p-3
+          "
+          href="#!"
+          >Status</a
+        >
+        <a
+          class="
+            list-group-item list-group-item-action list-group-item-light
+            p-3
+          "
+          href="../student/add.php"
+          >Friends</a
+        >
+        <a
+          class="
+            list-group-item list-group-item-action list-group-item-light
+            p-3
+          "
+          href="#!"
+          >Groups</a
+        >
+        <a
+          class="
+            list-group-item list-group-item-action list-group-item-light
+            p-3
+          "
+          href="#!"
+          >Market Place</a
+        >
+        <a
+          class="
+            list-group-item list-group-item-action list-group-item-light
+            p-3
+          "
+          href="#!"
+          >Saved</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
